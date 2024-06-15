@@ -11,7 +11,7 @@ import subprocess
 LANG = "en"
 ANEXO = "2001"
 CALLER_ID = "NOC Notification <9001>"
-SIP_TRUNK = "PBX-Aconetwork"
+SIP_TRUNK = "PBX-remote"
 AUDIO_NAME = "event_generated"
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 
