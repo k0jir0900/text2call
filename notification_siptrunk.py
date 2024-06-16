@@ -1,5 +1,5 @@
 #  -  Text2Call by SIP TRUNK
-#  -  Author: Daniel Olivares
+#  -  Author: k0jir0900
 
 from gtts import gTTS
 from pycall import CallFile, Call, Application

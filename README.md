@@ -40,7 +40,7 @@ Este script se debe utilizar cuando el anexo al que se notificará se encuentra 
 
 3. Ejecuta el script:
     ```bash
-    python3 notification.py "<texto>"
+    sudo python3 notification.py "<texto>"
     ```
 
 ### notification_siptrunk.py
@@ -63,5 +63,5 @@ Este script se debe utilizar cuando la llamada se realice a otra PBX o hacía la
 
 4. Ejecuta el script:
     ```bash
-    python3 notification_siptrunk.py "<texto>"
+    sudo python3 notification_siptrunk.py "<texto>"
     ```
