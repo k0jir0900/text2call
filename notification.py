@@ -12,7 +12,6 @@ AUDIO_NAME = "event_generated"
 SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
 
 def check_sox_installed():
-    print("Checking if sox is installed...")
     if shutil.which("sox") is None:
         print("Error: sox is not installed. Please install sox and try again.")
         sys.exit(1)

@@ -1,6 +1,3 @@
-#  -  Text2Call by SIP TRUNK
-#  -  Author: k0jir0900
-
 from gtts import gTTS
 from pycall import CallFile, Call, Application
 import sys
@@ -40,3 +37,6 @@ if __name__ == '__main__':
         call(ANEXO)
     else:
         print("Error: Missing argument")
+
+#  -  Text2Call with SIP Trunk
+#  -  Author: k0jir0900
